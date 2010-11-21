@@ -21,11 +21,12 @@ Here I described how I built Vim. If you want all features to work I should do t
 
 ### Prerequisites
 You should have at least the next packages installed to get and build Vim my way:
-    - libgtk2.0-dev
-    - python-dev
-    - python3-dev
-    - ruby-dev
-    - mercurial
+  - libgtk2.0-dev
+  - python-dev
+  - python3-dev
+  - ruby-dev
+  - mercurial
+
 That means you should do the next as root (example for Debian like distributions):
     apt-get install libgtk2.0-dev python-dev python3-dev ruby-dev mercurial
 

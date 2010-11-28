@@ -227,6 +227,17 @@ NERDTreeOptions	NERD_tree.txt	/*NERDTreeOptions*
 NERDTreeRender()	NERD_tree.txt	/*NERDTreeRender()*
 NERD_commenter.txt	NERD_commenter.txt	/*NERD_commenter.txt*
 NERD_tree.txt	NERD_tree.txt	/*NERD_tree.txt*
+Preview	preview.txt	/*Preview*
+PreviewBrowsers	preview.txt	/*PreviewBrowsers*
+PreviewBugs	preview.txt	/*PreviewBugs*
+PreviewCSSPath	preview.txt	/*PreviewCSSPath*
+PreviewConfig	preview.txt	/*PreviewConfig*
+PreviewContact	preview.txt	/*PreviewContact*
+PreviewContents	preview.txt	/*PreviewContents*
+PreviewDeps	preview.txt	/*PreviewDeps*
+PreviewFormats	preview.txt	/*PreviewFormats*
+PreviewIntro	preview.txt	/*PreviewIntro*
+PreviewMapping	preview.txt	/*PreviewMapping*
 ResetSnippets()	snipMate.txt	/*ResetSnippets()*
 SyntasticMake()	syntastic.txt	/*SyntasticMake()*
 Tlist_Get_Tag_Prototype_By_Line()	taglist.txt	/*Tlist_Get_Tag_Prototype_By_Line()*
@@ -535,6 +546,7 @@ multi_snip	snipMate.txt	/*multi_snip*
 o_[%	matchit.txt	/*o_[%*
 o_]%	matchit.txt	/*o_]%*
 o_g%	matchit.txt	/*o_g%*
+preview.txt	preview.txt	/*preview.txt*
 rails	rails.txt	/*rails*
 rails-'cfu'	rails.txt	/*rails-'cfu'*
 rails-'completefunc'	rails.txt	/*rails-'completefunc'*
@@ -758,6 +770,7 @@ unimpaired-lines	unimpaired.txt	/*unimpaired-lines*
 unimpaired-next	unimpaired.txt	/*unimpaired-next*
 unimpaired-todo	unimpaired.txt	/*unimpaired-todo*
 unimpaired.txt	unimpaired.txt	/*unimpaired.txt*
+vS	surround.txt	/*vS*
 v_[%	matchit.txt	/*v_[%*
 v_[e	unimpaired.txt	/*v_[e*
 v_[u	unimpaired.txt	/*v_[u*
@@ -793,6 +806,7 @@ vcscommand-ssh-other	vcscommand.txt	/*vcscommand-ssh-other*
 vcscommand-ssh-wrapper	vcscommand.txt	/*vcscommand-ssh-wrapper*
 vcscommand-statusline	vcscommand.txt	/*vcscommand-statusline*
 vcscommand.txt	vcscommand.txt	/*vcscommand.txt*
+vgS	surround.txt	/*vgS*
 vs	surround.txt	/*vs*
 xml-plugin-callbacks	xml-plugin.txt	/*xml-plugin-callbacks*
 xml-plugin-html	xml-plugin.txt	/*xml-plugin-html*

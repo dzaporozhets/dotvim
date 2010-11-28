@@ -332,27 +332,3 @@ vmap <C-j> ]egv
 vmap <C-Down> ]egv
 
 
-" Preview for markdown files
-" It requires VIM to be compiled with built in Ruby
-" And needs bluecloth gem
-function! PreviewMKD()
-    ruby << EOF
-        if VIM::Buffer.current.name =~ /.(mk|mkd)$/
-            print "Error! - This file extension is not supported for Markdown previews"
-        end
-
-        require 'rubygems'
-        require 'bluecloth'
-        require 'tempfile'
-        t = ""
-        VIM::Buffer.current.count.times {|i| t += "#{VIM::Buffer.current[i + 1]}\n"}
-        base_name = File.basename(VIM::Buffer.current.name)
-        html_file = Tempfile.new(base_name)
-        html_file.write(BlueCloth.new(t).to_html)
-        html_file.close
-
-        pth = html_file.path
-        system("(open #{pth} || firefox #{pth} || epiphany #{pth}) 2> /dev/null")
-EOF
-endfunction
-map <Leader>P :call PreviewMKD()<CR>

@@ -331,4 +331,5 @@ vmap <C-Up> [egv
 vmap <C-j> ]egv
 vmap <C-Down> ]egv
 
-
+" directory for swap files
+set dir=$HOME/.vim/tmp

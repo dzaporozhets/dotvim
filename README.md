@@ -5,7 +5,7 @@ This is my daily use .vim. It includes my vimrc file, plugins, syntax checkers, 
 
 ## Install
 Clone git repository:
-    git clone https://github.com/greyblake/dotvim.git $HOME/.vim
+    git clone git://github.com/greyblake/dotvim.git $HOME/.vim
 Install git submodules:
     cd $HOME/.vim
     git submodule init

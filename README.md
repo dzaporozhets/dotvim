@@ -12,6 +12,8 @@ Install git submodules:
     git submodule update
 Create a symbol link to vimrc:
     ln -s $HOME/.vim/vimrc $HOME/.vimrc 
+Add .vim/bin to your PATH(exmaple for bash):
+    echo 'export PATH=$PATH:$HOME/.vim/bin' >> $HOME/.bashrc
 
 ## Requirements
 Some plugins and features need builtin python and ruby interpreters. See the next section how to build Vim with this options.

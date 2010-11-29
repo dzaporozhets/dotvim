@@ -333,3 +333,7 @@ vmap <C-Down> ]egv
 
 " directory for swap files
 set dir=$HOME/.vim/tmp
+
+" Sparkup plugin:
+" Mapping used to jump to the next empty tag/attribute.
+let g:sparkupNextMapping = '<Tab>'

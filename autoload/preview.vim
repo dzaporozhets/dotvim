@@ -193,10 +193,17 @@ class Preview
         border: solid #DEDEDE 1px;
         background-color: #F6F6F6;
         padding: 1px;
+        font-family: monospace;
       }
       pre > code{
         border: none;
         padding: none;
+      }
+      blockquote{
+        border: dashed #AEAEAE 1px;
+        background-color: #F6F6F6;
+        padding: 4px 10px 4px 10px;
+        font-family: monospace;
       }
       div#main-container{
         background-color: #F2F2F2;

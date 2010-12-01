@@ -2,9 +2,8 @@
 "This must be first, because it changes other options as a side effect.
 set nocompatible
 
-
+" Use pathogen
 filetype off 
-call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 
 
@@ -344,5 +343,5 @@ set dir=$HOME/.vim/tmp
 " Mapping used to jump to the next empty tag/attribute.
 let g:sparkupNextMapping = '<C-t>n'
 
-
-let g:PreviewBrowsers = 'epiphany'
+" generate documentation for plugins in ./bundle dir
+call pathogen#helptags()

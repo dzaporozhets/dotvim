@@ -4,3 +4,6 @@
 [submodule "bundle/xmledit"]
 	path = bundle/xmledit
 	url = https://sukima@github.com/sukima/xmledit.git
+[submodule "bundle/preview"]
+	path = bundle/preview
+	url = https://greyblake@github.com/greyblake/vim-preview.git

@@ -1,3 +1,6 @@
 [submodule "snippets"]
 	path = snippets
 	url = git://github.com/scrooloose/snipmate-snippets.git
+[submodule "bundle/xmledit"]
+	path = bundle/xmledit
+	url = https://sukima@github.com/sukima/xmledit.git

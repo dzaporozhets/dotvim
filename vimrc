@@ -2,6 +2,12 @@
 "This must be first, because it changes other options as a side effect.
 set nocompatible
 
+
+filetype off 
+call pathogen#helptags()
+call pathogen#runtime_append_all_bundles()
+
+
 "allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
@@ -336,4 +342,4 @@ set dir=$HOME/.vim/tmp
 
 " Sparkup plugin:
 " Mapping used to jump to the next empty tag/attribute.
-let g:sparkupNextMapping = '<Tab>'
+let g:sparkupNextMapping = '<C-t>n'

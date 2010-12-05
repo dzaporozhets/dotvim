@@ -7,3 +7,6 @@
 [submodule "bundle/preview"]
 	path = bundle/preview
 	url = https://greyblake@github.com/greyblake/vim-preview.git
+[submodule "bundle/speeddating"]
+	path = bundle/speeddating
+	url = https://github.com/tpope/vim-speeddating.git

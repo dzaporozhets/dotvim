@@ -2,9 +2,8 @@
 "This must be first, because it changes other options as a side effect.
 set nocompatible
 
-
+" Use pathogen
 filetype off 
-call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 
 
@@ -353,3 +352,6 @@ function! BlakeCalc()
     normal p
 endfunction
 nmap <C-c> :call BlakeCalc()<CR>
+
+" generate documentation for plugins in ./bundle dir
+call pathogen#helptags()

@@ -345,3 +345,8 @@ let g:sparkupNextMapping = '<C-t>n'
 
 " generate documentation for plugins in ./bundle dir
 call pathogen#helptags()
+
+set autochdir
+map <Tab> <C-W>W:cd %:p:h<CR>:<CR>
+
+colorscheme rdark

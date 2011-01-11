@@ -343,6 +343,16 @@ set dir=$HOME/.vim/tmp
 " Mapping used to jump to the next empty tag/attribute.
 let g:sparkupNextMapping = '<C-t>n'
 
+
+" Calculator
+function! BlakeCalc()
+    normal daW
+    let result = eval(getreg(""))
+    call setreg("", ' ' . result)
+    normal p
+endfunction
+nmap <C-c> :call BlakeCalc()<CR>
+
 " generate documentation for plugins in ./bundle dir
 call pathogen#helptags()
 

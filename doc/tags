@@ -58,10 +58,6 @@
 'loaded_nerd_comments'	NERD_commenter.txt	/*'loaded_nerd_comments'*
 'loaded_nerd_tree'	NERD_tree.txt	/*'loaded_nerd_tree'*
 'snippets'	snipMate.txt	/*'snippets'*
-'syntastic_auto_loc_list'	syntastic.txt	/*'syntastic_auto_loc_list'*
-'syntastic_disabled_filetypes'	syntastic.txt	/*'syntastic_disabled_filetypes'*
-'syntastic_enable_signs'	syntastic.txt	/*'syntastic_enable_signs'*
-'syntastic_quiet_warnings'	syntastic.txt	/*'syntastic_quiet_warnings'*
 .snippet	snipMate.txt	/*.snippet*
 .snippets	snipMate.txt	/*.snippets*
 :Brightness	xterm16.txt	/*:Brightness*
@@ -76,7 +72,6 @@
 :CVSWatchOn	vcscommand.txt	/*:CVSWatchOn*
 :CVSWatchRemove	vcscommand.txt	/*:CVSWatchRemove*
 :CVSWatchers	vcscommand.txt	/*:CVSWatchers*
-:Errors	syntastic.txt	/*:Errors*
 :MatchDebug	matchit.txt	/*:MatchDebug*
 :NERDTree	NERD_tree.txt	/*:NERDTree*
 :NERDTreeClose	NERD_tree.txt	/*:NERDTreeClose*
@@ -84,8 +79,6 @@
 :NERDTreeFromBookmark	NERD_tree.txt	/*:NERDTreeFromBookmark*
 :NERDTreeMirror	NERD_tree.txt	/*:NERDTreeMirror*
 :NERDTreeToggle	NERD_tree.txt	/*:NERDTreeToggle*
-:SyntasticDisable	syntastic.txt	/*:SyntasticDisable*
-:SyntasticEnable	syntastic.txt	/*:SyntasticEnable*
 :TlistAddFiles	taglist.txt	/*:TlistAddFiles*
 :TlistAddFilesRecursive	taglist.txt	/*:TlistAddFilesRecursive*
 :TlistClose	taglist.txt	/*:TlistClose*
@@ -228,7 +221,6 @@ NERDTreeRender()	NERD_tree.txt	/*NERDTreeRender()*
 NERD_commenter.txt	NERD_commenter.txt	/*NERD_commenter.txt*
 NERD_tree.txt	NERD_tree.txt	/*NERD_tree.txt*
 ResetSnippets()	snipMate.txt	/*ResetSnippets()*
-SyntasticMake()	syntastic.txt	/*SyntasticMake()*
 Tlist_Get_Tag_Prototype_By_Line()	taglist.txt	/*Tlist_Get_Tag_Prototype_By_Line()*
 Tlist_Get_Tagname_By_Line()	taglist.txt	/*Tlist_Get_Tagname_By_Line()*
 Tlist_Set_App()	taglist.txt	/*Tlist_Set_App()*
@@ -735,21 +727,6 @@ surround-mappings	surround.txt	/*surround-mappings*
 surround-replacements	surround.txt	/*surround-replacements*
 surround-targets	surround.txt	/*surround-targets*
 surround.txt	surround.txt	/*surround.txt*
-syntastic	syntastic.txt	/*syntastic*
-syntastic-about	syntastic.txt	/*syntastic-about*
-syntastic-changelog	syntastic.txt	/*syntastic-changelog*
-syntastic-commands	syntastic.txt	/*syntastic-commands*
-syntastic-contents	syntastic.txt	/*syntastic-contents*
-syntastic-credits	syntastic.txt	/*syntastic-credits*
-syntastic-error-signs	syntastic.txt	/*syntastic-error-signs*
-syntastic-error-window	syntastic.txt	/*syntastic-error-window*
-syntastic-functionality	syntastic.txt	/*syntastic-functionality*
-syntastic-intro	syntastic.txt	/*syntastic-intro*
-syntastic-license	syntastic.txt	/*syntastic-license*
-syntastic-options	syntastic.txt	/*syntastic-options*
-syntastic-statusline-flag	syntastic.txt	/*syntastic-statusline-flag*
-syntastic-syntax-checkers	syntastic.txt	/*syntastic-syntax-checkers*
-syntastic.txt	syntastic.txt	/*syntastic.txt*
 taglist-commands	taglist.txt	/*taglist-commands*
 taglist-debug	taglist.txt	/*taglist-debug*
 taglist-extend	taglist.txt	/*taglist-extend*

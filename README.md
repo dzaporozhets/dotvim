@@ -1,6 +1,6 @@
 ## Install
 Clone git repository:
-    git clone git://github.com/greyblake/dotvim.git $HOME/.vim
+    git clone git@github.com:randx/dotvim.git $HOME/.vim
 Install git submodules:
     cd $HOME/.vim
     git submodule init

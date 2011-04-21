@@ -50,7 +50,6 @@ set statusline+=%{StatuslineTrailingSpaceWarning()}
 set statusline+=%{StatuslineLongLineWarning()}
 
 set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
 "display a warning if &paste is set
@@ -337,6 +336,8 @@ vmap <C-j> ]egv
 vmap <C-Down> ]egv
 
 " directory for swap files
+set noswapfile
+set nobackup
 set dir=$HOME/.vim/tmp
 
 " Sparkup plugin:
@@ -360,3 +361,9 @@ set autochdir
 map <Tab> <C-W>W:cd %:p:h<CR>:<CR>
 
 colorscheme rdark
+
+set nohidden
+call s:initVariable("g:NERDTreeMapToggleHidden", "I")
+
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p

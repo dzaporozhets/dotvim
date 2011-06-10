@@ -316,8 +316,6 @@ endfunction
 
 " display line numbers
 set number
-" set color theme
-color rdark
 " look for doc in $HOME/.vim/doc
 helptags ~/.vim/doc
 
@@ -360,10 +358,18 @@ call pathogen#helptags()
 set autochdir
 map <Tab> <C-W>W:cd %:p:h<CR>:<CR>
 
-colorscheme rdark
 
 set nohidden
 call s:initVariable("g:NERDTreeMapToggleHidden", "I")
 
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
+
+colorscheme tango2
+"color ruby-dark
+
+
+inoremap <Nul> <C-n>
+
+
+

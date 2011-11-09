@@ -359,6 +359,11 @@ set autochdir
 map <Tab> <C-W>W:cd %:p:h<CR>:<CR>
 
 
+map <F11> <C-W>o<CR>
+map <F2> :NERDTree<CR>
+map <F5> :w<CR>
+
+
 set nohidden
 call s:initVariable("g:NERDTreeMapToggleHidden", "I")
 

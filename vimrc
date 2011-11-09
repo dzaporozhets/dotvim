@@ -362,7 +362,7 @@ map <Tab> <C-W>W:cd %:p:h<CR>:<CR>
 map <F11> <C-W>o<CR>
 map <F2> :NERDTree<CR>
 map <F5> :w<CR>
-
+map <F4> :CommandT<CR>
 
 set nohidden
 call s:initVariable("g:NERDTreeMapToggleHidden", "I")
